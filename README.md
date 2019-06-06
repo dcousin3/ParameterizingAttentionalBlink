@@ -12,4 +12,5 @@ doi: 10.1037/cjep2006017
 Files are for
 a) Mathematica
 b) Matlab (courtesy of Nicholas Badcock, Dorothy Bishop, and Mihaela Duta  [mailto:nicholas.badcock@psy.ox.ac.uk])
-
+ 
+You are welcome to raise an issue if you find a bug in the codes.
