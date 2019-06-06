@@ -5,7 +5,9 @@ This repository contains code that are meant to parameterize the Attentional Bli
 
 The main reference is 
 Cousineau, D., Charbonneau, D., & Jolicoeur, P. (2006) Parameterizing the Attentional Blink Effect. Canadian Journal of Experimental Psychology, 60(3), 175-189.
-doi: 10.1037/cjep3006017
+doi: 10.1037/cjep2006017
+
+(The text is acessible on ResearchGate https://www.researchgate.net/publication/6720939_Parameterizing_the_attentional_blink_effect)
 
 Files are for
 a) Mathematica
