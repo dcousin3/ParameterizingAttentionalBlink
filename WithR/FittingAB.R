@@ -42,7 +42,8 @@ LL <- function(data, l, b, c, d) {
 
 fitAB <- function(data, 
             rngL = c(+0.1, +0.9), rngB = c(-0.3, +0.1), 
-            rngC = c(-0.1, +0.1), rngD = c(-0.1, +0.1) ) { 
+            rngC = c(-0.1, +0.1), rngD = c(-0.1, +0.1) 
+) { 
     # required library
     require(stats)
     
@@ -52,10 +53,6 @@ fitAB <- function(data,
         byrow = TRUE, ncol = 4
     )
     ci  <- as.matrix(c(-1,0,-0.3,-1,0,-1,0,-1))
-
-    # starting point heuristics
-#    lo  <- min(data[,2]);
-#    hi  <- max(data[,2]) - min(data[,2]);
 
     # define the objective function
     fct <- function(theta) {
